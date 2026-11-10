@@ -1,0 +1,36 @@
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables - NEVER upload secrets
+.env
+**/.env
+.env.*
+!.env.example
+
+# Testing
+coverage/
+
+# Production builds
+build/
+dist/
+
+# Miscellaneous
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+# Backend environment variables
+backend/.env
+
+# Uploaded user files
+backend/uploads/
+
+# Dependencies
+node_modules/
+**/node_modules/
